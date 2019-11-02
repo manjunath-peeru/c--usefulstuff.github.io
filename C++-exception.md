@@ -1,0 +1,24 @@
+# c--usefulstuff.github.io
+
+
+
+
+C++ exception
+
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <exception>
+using namespace std;
+
+class BadLengthException {
+
+    int _n;
+
+public:
+    explicit BadLengthException( int n ) : _n(n) {}
+
+    int what() {
+            return _n;
+        }    
+};
