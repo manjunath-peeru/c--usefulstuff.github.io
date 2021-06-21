@@ -1,10 +1,6 @@
 # c--usefulstuff.github.io
 
 
-
-
-C++ exception
-
 #include <iostream>
 #include <string>
 #include <sstream>
